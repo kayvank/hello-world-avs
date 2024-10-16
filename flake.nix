@@ -56,8 +56,6 @@
         export CARGO_HOME="$(pwd)/.cargo"
         export PATH="$CARGO_HOME/bin:$PATH"
         export RUST_BACKTRACE=1
-        export CARGO_NET_GIT_FETCH_WITH_CLI=true
-        export ETH_RPC_URL='127.0.0.1:8545'
         export RPC_URL='127.0.0.1:8545'
         export ETHERSCAN_API_KEY='fake-key'
         export HOLESKY_PRIVATE_KEY='fake-key'
