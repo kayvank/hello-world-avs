@@ -29,8 +29,6 @@
 
       cargoLock.lockFile = ./Cargo.lock;
 
-      # GIT_COMMIT_HASH_SHORT = self.shortRev or "unknown";
-
     };
   in {
 
@@ -60,6 +58,7 @@
         export RUST_BACKTRACE=1
         export CARGO_NET_GIT_FETCH_WITH_CLI=true
         export ETH_RPC_URL='127.0.0.1:8545'
+        export RPC_URL='127.0.0.1:8545'
         export ETHERSCAN_API_KEY='fake-key'
         export HOLESKY_PRIVATE_KEY='fake-key'
         export PRIVATE_KEY=0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
